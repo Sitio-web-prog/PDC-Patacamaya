@@ -8,27 +8,34 @@
     <meta name="description" content="Jhon Ramirez, candidato a alcalde de Patacamaya. Capacidad, renovación y gestión real para transformar nuestro municipio.">
     <meta property="og:title" content="Jhon Ramirez – Alcalde Patacamaya 2026 - 2031">
     <meta property="og:description" content="Capacidad, renovación y gestión real para transformar Patacamaya. Conoce al candidato y su equipo.">
-    <meta property="og:image" content="https://Nando-Fenix.github.io/PDC-Patacamaya/img/preview.jpg">
-    <meta property="og:url" content="https://Nando-Fenix.github.io/PDC-Patacamaya/">
+    <meta property="og:image" content="https://Sitio-web-prog.github.io/PDC-Patacamaya/img/preview.jpg">
+    <meta property="og:url" content="https://Sitio-web-prog.github.io/PDC-Patacamaya/">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_BO">
+    <meta name="theme-color" content="#0a5f2e">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Jhon Ramirez – Alcalde Patacamaya 2026 - 2031">
     <meta name="twitter:description" content="Un compromiso con el desarrollo de nuestra tierra.">
-    <meta name="twitter:image" content="https://Nando-Fenix.github.io/PDC-Patacamaya/img/preview.jpg">
+    <meta name="twitter:image" content="https://Sitio-web-prog.github.io/PDC-Patacamaya/img/preview.jpg">
+    <meta name="author" content="Equipo de campaña Jhon Ramirez">
+    <meta name="robots" content="index, follow">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="canonical" href="https://Sitio-web-prog.github.io/PDC-Patacamaya/">
     <link href="./css/style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/logo_pdc.ico" type="image/x-icon">
+    <link rel="icon" href="img/logo_pdc.ico">
 
 </head>
 
 <body>
-
+    <!-- BARRA DE PROGRESO -->
+    <div id="scroll-bar"></div>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow sticky-top">
         <div class="container">
@@ -72,7 +79,7 @@
             </div>
         </div>
     </nav>
-        <!-- TÍTULO -->
+        <!-- BANNER -->
             <section id="inicio" class="hero-section d-flex align-items-center">
                 <div class="container">
                     <div class="row align-items-center">
@@ -111,9 +118,9 @@
             </section>
         
 
-        <!-- DESCRIPCIÓN -->
+        <!-- CANDIDATO A ALCALDE -->
         <div class="container py-5" id="candidato">
-            <div class="glass p-4">
+            <div class="glass p-4 " data-aos="fade-up">
                 <div class="row align-items-center">
                     <div class="col-md-4 text-center">
                         <img src="img/candidato.webp" loading="lazy" class="img-fluid rounded-circle profile-img" width="200">
@@ -130,6 +137,21 @@
                         <blockquote class="border-start border-danger ps-3 fst-italic">
                             "No venimos a prometer, venimos a gestionar el futuro que nuestros hijos merecen."
                         </blockquote>
+                        <div class="d-flex justify-content-center gap-2 mt-3 flex-wrap">
+
+                            <a href="https://www.facebook.com/profile.php?id=61586104391464&sk" 
+                            target="_blank"
+                            class="btn btn-social-facebook btn-sm d-flex align-items-center gap-2 px-3">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </a>
+
+                            <a href="https://www.tiktok.com/@jhon_ramirez12345?is_from_webapp=1&sender_device=pc" 
+                            target="_blank"
+                            class="btn btn-social-tiktok btn-sm d-flex align-items-center gap-2 px-3">
+                                <i class="bi bi-tiktok"></i> TikTok
+                            </a>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,14 +171,14 @@
             <div class="row g-4">
 
                 <!-- ESPINOZA -->
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="card team-card glass text-center p-3">
 
                         <span class="badge role-collab mb-2 valor-candidato">
                             <i class="bi bi-shield-check"></i> Capacidad
                         </span>
 
-                        <img src="img/miguel.webp" class="rounded-circle mx-auto profile-img" width="140">
+                        <img src="img/miguel.webp" alt="Miguel Angel Espinoza candidato a concejal" class="rounded-circle mx-auto profile-img" width="140">
 
                         <h6 class="fw-bold mb-0 text-danger concejal-cargo"> Candidato a 1er Concejal</h6>
                         <h5 class="fw-bold mt-1 mb-1 text-collab">Miguel Angel Espinoza</h5>
@@ -164,11 +186,11 @@
                             Trayectoria sólida en gestión vecinal, organización social y representación ciudadana, con experiencia directa en liderazgo comunitario y trabajo institucional.
                         </p>
                         <div class="d-flex justify-content-center gap-2 mt-2 flex-wrap">
-                            <a href="https://facebook.com/" target="_blank" 
+                            <a href="https://www.facebook.com/share/18aEx8eUx7/" target="_blank" 
                             class="btn btn-outline-primary btn-sm d-flex align-items-center gap-2 px-3">
                                 <i class="bi bi-facebook"></i> Facebook
                             </a>
-                            <a href="https://tiktok.com/" target="_blank" 
+                            <a href="https://www.tiktok.com/@miguelangelespino4260?_r=1&_t=ZS-94S1HqPicGg" target="_blank" 
                             class="btn btn-outline-dark btn-sm d-flex align-items-center gap-2 px-3">
                                 <i class="bi bi-tiktok"></i> TikTok
                             </a>
@@ -183,12 +205,12 @@
                 </div>
 
                 <!-- PAÑUNI -->
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
                     <div class="card team-card glass text-center p-3">
                         <span class="badge role-collab mb-2 valor-candidato">
                             <i class="bi bi-lightning-fill"></i> Renovación
                         </span>
-                        <img src="img/pañuni.webp" class="rounded-circle mx-auto profile-img" width="140">
+                        <img src="img/pañuni.webp" alt="Monica Pañuni candidato a concejal" class="rounded-circle mx-auto profile-img" width="140">
                         <h6 class="fw-bold mb-0 text-danger concejal-cargo">Candidato a 2do Concejal</h6>
                         <h5 class="fw-bold mt-1 mb-1 text-collab">Monica Pañuni</h5>
                         <p class="small text-soft">
@@ -211,18 +233,18 @@
                 </div>
 
                 <!-- GUARACHI -->
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
                     <div class="card team-card glass text-center p-3">
                         <span class="badge role-collab mb-2 valor-candidato">
                             <i class="bi bi-book-fill"></i> Conocimiento
                         </span>
-                        <img src="img/guarachi.webp" class="rounded-circle mx-auto profile-img" width="140">
+                        <img src="img/guarachi.webp" alt="Octavio Guarachi candidato a concejal" class="rounded-circle mx-auto profile-img" width="140">
                         <h6 class="fw-bold mb-0 text-danger concejal-cargo">Candidato a 3er Concejal</h6>
                         <h5 class="fw-bold mt-1 mb-1 text-collab">Octavio Guarachi</h5>
                         
 
                         <p class="small text-soft">
-                            Formación en Derecho y experiencia en gestión comunitaria orientadas al control social, la transparencia y la correcta administración pública
+                            Formación en Derecho y experiencia en gestión comunitaria orientadas al control social, la transparencia y la correcta administración pública. </p>
                         
                         <div class="d-flex justify-content-center gap-2 mt-2 flex-wrap">
                             <a href="https://www.facebook.com/share/1ApegKU1he/" target="_blank" 
@@ -246,43 +268,137 @@
 
         <!-- PLAN -->
         <div id="plan" class="glass p-4 mt-4">
-            <h4 class="mb-4 text-center">
-                <i class="bi bi-lightning-charge-fill"></i> Nuestro Plan para Transformar Patacamaya
-            </h4>
+
+            <h3 class="text-center mb-4">
+                <i class="bi bi-lightning-charge-fill"></i>
+                Plan de Gobierno para Transformar Patacamaya
+            </h3>
 
             <div class="row g-4">
 
-                <div class="col-md-6">
-                    <div class="glass p-3">
-                        🛡️ <strong>Transparencia Institucional:</strong><br>
-                        Auditoría a la gestión anterior y digitalización de trámites.
+                <!-- SALUD -->
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="glass p-4 h-100 border-start border-4 border-success">
+                        <h5 class="text-warning">
+                            <i class="bi bi-hospital"></i> Salud
+                        </h5>
+
+                        <ul class="text-light mt-3">
+                            <li>Implementación y equipamiento de insumos médicos.</li>
+                            <li>Gestión de ítems para nuevos profesionales especialistas.</li>
+                            <li>Adquisición de nuevas ambulancias.</li>
+                            <li>Construcción de centros de salud con internación en los cantones.</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="glass p-3">
-                        🚜 <strong>Impulso Productivo:</strong><br>
-                        Modernización de la infraestructura ferial y apoyo a productores.
+                <!-- EDUCACION -->
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="glass p-4 h-100 border-start border-4 border-warning">
+                        <h5 class="text-warning">
+                            <i class="bi bi-mortarboard"></i> Educación
+                        </h5>
+
+                        <ul class="text-light mt-3">
+                            <li>Mantenimiento de unidades educativas rurales y urbanas.</li>
+                            <li>Equipamiento con pizarras acrílicas, mesas y sillas.</li>
+                            <li>Desayuno escolar con alimentos nutritivos.</li>
+                            <li>Implementación de nuevos buses escolares.</li>
+                            <li>Mochilas escolares con materiales.</li>
+                            <li>Gestión de carreras universitarias con la UPEA.</li>
+                            <li>Incentivo de <strong>1000 Bs</strong> a los dos mejores bachilleres.</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="glass p-3">
-                        🏥 <strong>Salud y Bienestar:</strong><br>
-                        Equipamiento médico y Modernizacion de centros de salud.
+                <!-- INFRAESTRUCTURA -->
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="glass p-4 h-100 border-start border-4 border-success">
+                        <h5 class="text-warning">
+                            <i class="bi bi-building"></i> Infraestructura
+                        </h5>
+
+                        <ul class="text-light mt-3">
+                            <li>Construcción de la terminal de buses.</li>
+                            <li>Transformación de la Av. Panamericana en el prado de la ciudad.</li>
+                            <li>Aprobación de la planimetría urbana.</li>
+                            <li>Ampliación del sistema de alcantarillado sanitario.</li>
+                            <li>Mejoramiento vial de calles, avenidas y plazas.</li>
+                            <li>Perforación de pozos de agua.</li>
+                            <li>Mejoramiento de sistemas de riego.</li>
+                            <li>Construcción de represas y atajados.</li>
+                            <li>Digitalización del pago de impuestos.</li>
+                            <li>Rescate y esterilización de canes en situación de calle.</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="glass p-3">
-                        🏗️ <strong>Obras de Impacto:</strong><br>
-                        Pavimentación, agua potable y alcantarillado.
+                <!-- SEGURIDAD -->
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="glass p-4 h-100 border-start border-4 border-warning">
+                        <h5 class="text-warning">
+                            <i class="bi bi-shield-lock"></i> Seguridad Ciudadana
+                        </h5>
+
+                        <ul class="text-light mt-3">
+                            <li>Implementación de alumbrado público.</li>
+                            <li>Instalación de cámaras de seguridad.</li>
+                            <li>Gestión de más policías desde el comando departamental.</li>
+                            <li>Creación de guardias municipales.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- DESARROLLO HUMANO -->
+                <div class="col-md-12" data-aos="fade-right">
+                    <div class="glass p-4 border-start border-4 border-success">
+                        <h5 class="text-warning">
+                            <i class="bi bi-people"></i> Desarrollo Humano
+                        </h5>
+
+                        <ul class="text-light mt-3">
+                            <li>Mejor sistema de recojo de basura.</li>
+                            <li>Centros de rehabilitación para alcohólicos.</li>
+                            <li>Construcción de centros de acogida para adultos mayores y personas con discapacidad.</li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
+
         </div>
 
+        <section class="container py-4">
+
+            <div class="row text-center g-4">
+
+            <div class="col-md-3">
+            <i class="bi bi-shield-check display-5 text-success"></i>
+            <h5>Transparencia</h5>
+            <p class="small text-soft">Administración clara y fiscalizada.</p>
+            </div>
+
+            <div class="col-md-3">
+            <i class="bi bi-people display-5 text-warning"></i>
+            <h5>Participación</h5>
+            <p class="small text-soft">Gobierno cercano al pueblo.</p>
+            </div>
+
+            <div class="col-md-3">
+            <i class="bi bi-graph-up display-5 text-success"></i>
+            <h5>Desarrollo</h5>
+            <p class="small text-soft">Impulso productivo real.</p>
+            </div>
+
+            <div class="col-md-3">
+            <i class="bi bi-building display-5 text-warning"></i>
+            <h5>Infraestructura</h5>
+            <p class="small text-soft">Obras que transformen la ciudad.</p>
+            </div>
+
+            </div>
+
+        </section>
         
         <!-- SLIDER -->
         <section id="galeria-campana" class="py-4 bg-light">
@@ -329,8 +445,37 @@
 
         </section>
 
+        <section class="container py-5 mensaje-patacamaya ">
+
+            <div class="glass p-4 text-center">
+
+                <h3 class="mb-3">
+                    <i class="bi bi-megaphone"></i>
+                    Mensaje a Patacamaya
+                </h3>
+
+                <p class="text-soft">
+                    Nuestro municipio tiene historia, esfuerzo y un enorme potencial.
+                    Hoy más que nunca necesitamos una gestión honesta,
+                    capaz y cercana a la gente.
+                </p>
+
+                <p class="text-soft">
+                    Este proyecto no es de una persona,
+                    es de todos los ciudadanos que quieren ver
+                    una Patacamaya más fuerte, moderna y con oportunidades.
+                </p>
+
+                <h5 class="mt-3 fw-bold">
+                    Jhon Ramirez
+                </h5>
+
+            </div>
+
+        </section>
+
         <!-- FOOTER -->
-        <footer class="glass p-4 mt-5 text-center">
+        <footer class="glass p-4 text-center">
             <img src="img/logo_pdc.webp" width="120" class="mb-3">
 
             <p class="fw-bold">Juntos por la Patacamaya que soñamos.</p>
@@ -521,6 +666,11 @@
                   </div>
               </div>
           </div>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
